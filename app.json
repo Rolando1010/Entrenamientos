@@ -4,7 +4,7 @@
     "slug": "workouts",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/simbol.png",
+    "icon": "./assets/adaptative-icon.png",
     "userInterfaceStyle": "dark",
     "splash": {
       "image": "./assets/splash.png",
@@ -22,7 +22,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/icon.png",
+        "foregroundImage": "./assets/adaptative-icon.png",
         "backgroundColor": "#282a37"
       },
       "package": "entrenamientos.v1"
