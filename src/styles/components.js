@@ -77,12 +77,19 @@ const menuStyle = StyleSheet.create({
         backgroundColor: theme.background1
     },
     title: {
+        marginTop: 25,
+        flexDirection: "row",
+        justifyContent: "center",
+        alignItems: "center"
+    },
+    icon: {
+        width: 40,
+        height: 40
+    },
+    titleText: {
         color: theme.fontColor1,
         fontSize: 20,
-        marginTop: 25,
-        marginBottom: 10,
-        marginBottom: 15,
-        textAlign: "center"
+        marginLeft: 5
     },
     sectionContainer: {
         flexDirection: "row"
@@ -90,7 +97,8 @@ const menuStyle = StyleSheet.create({
     section: {
         width: "33%",
         borderBottomWidth: 2,
-        borderBottomColor: theme.background1
+        borderBottomColor: theme.background1,
+        paddingTop: 15
     },
     sectionActive: {
         borderBottomColor: theme.primary1

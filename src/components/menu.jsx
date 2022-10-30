@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import { View, Text, BackHandler } from "react-native";
-import { Link, useLocation, useNavigate, use } from "react-router-native";
+import { View, Text, BackHandler, Image } from "react-native";
+import { Link, useLocation, useNavigate } from "react-router-native";
 import { menuStyle } from "../styles/components";
 import { CalendarIcon, GraphIcon, HomeIcon } from "./icons";
 
@@ -53,7 +53,10 @@ const Menu = () => {
 
     return (
         <View style={menuStyle.menu}>
-            <Text style={menuStyle.title}>Entrenamientos</Text>
+            <View style={menuStyle.title}>
+                <Image style={menuStyle.icon} source={require("../../assets/icon.png")}/>
+                <Text style={menuStyle.titleText}>Entrenamientos</Text>
+            </View>
             <View style={menuStyle.sectionContainer}>
                 {sections.map(({link, icon}, index) =>
                     <View
