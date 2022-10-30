@@ -25,7 +25,7 @@
         "foregroundImage": "./assets/adaptative-icon.png",
         "backgroundColor": "#282a37"
       },
-      "package": "entrenamientos.v1"
+      "package": "workouts.v1"
     },
     "web": {
       "favicon": "./assets/icon.png"
