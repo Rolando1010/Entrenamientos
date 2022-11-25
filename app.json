@@ -21,11 +21,15 @@
       "supportsTablet": true
     },
     "android": {
+      "versionCode": 2,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptative-icon.png",
         "backgroundColor": "#282a37"
       },
-      "package": "workouts.v1"
+      "package": "workouts.v1",
+      "permissions": [
+        "WRITE_SETTINGS"
+      ]
     },
     "web": {
       "favicon": "./assets/icon.png"
